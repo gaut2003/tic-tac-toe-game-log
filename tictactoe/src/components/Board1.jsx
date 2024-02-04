@@ -3,7 +3,7 @@ import Square from "./Square";
 import Player from "./Player";
 import Leaderboard from "./Leaderboard";
 import { useCookies } from "react-cookie";
-const URL = "http://localhost:5000/api/games";
+const URL = "https://tictactoe-backend-blss.onrender.com/api/games";
 
 const Board = () => {
     const [state, setState] = useState(Array(9).fill(null));
